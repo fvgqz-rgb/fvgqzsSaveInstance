@@ -707,7 +707,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 
 	local OPTIONS = {
 		mode = "optimized",
-		noscripts = false,
+		noscripts = true,
 		scriptcache = true,
 		decomptype = "",
 		timeout = 10,
