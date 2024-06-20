@@ -734,7 +734,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 		NilInstances = false,
 		NilInstancesFixes = {},
 
-		SaveCacheInterval = 0x1600 * 1,
+		SaveCacheInterval = 0x1600 * 0.1,
 		ShowStatus = true,
 		SafeMode = false,
 		ReadMe = true,
